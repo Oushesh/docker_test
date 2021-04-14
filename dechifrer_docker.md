@@ -7,3 +7,6 @@
     * All the commands you would write is under "RUN"
     * ENV is used to define path
     * Otherwise everything is with RUN
+
+## Ref: 
+   * https://github.com/pbridger/pytorch-video-pipeline/blob/master/docker/Dockerfile
