@@ -12,8 +12,8 @@
    * Machine Learning Part: 
      * Self made data--annotation Tool, inference automation, etc-.. soon
     
-    
-    
-    
-    
+## Problems with Docker on VM and Cloud services.
+   * https://phoenixnap.com/kb/how-to-create-sudo-user-on-ubuntu
+   * https://phoenixnap.com/kb/su-command-linux-examples
+   * https://docs.docker.com/engine/security/rootless/
     
