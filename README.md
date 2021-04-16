@@ -17,3 +17,9 @@
    * https://phoenixnap.com/kb/su-command-linux-examples
    * https://docs.docker.com/engine/security/rootless/
     
+    * Docker run
+      * Typical: sudo docker build <docker.file> without sudo you get docker-daemon error
+        * If you are on a local computer: add current user to new user group as follows:
+          *  https://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo
+        * If you are on a virtual machine: example the one I use: Paperspace then lets see
+          * TO Write the fix here  
