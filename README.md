@@ -23,3 +23,8 @@
           *  https://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo
         * If you are on a virtual machine: example the one I use: Paperspace then lets see
           * TO Write the fix here  
+
+
+## Current Training and Inference Cycle:
+   * 1) Make <docker> file for every git --> docker build docker --> push docker image to docker hub 
+   * 2) Connect the myhub/container to Gradient on paperspace --> perform testing, NN Training and Inference
