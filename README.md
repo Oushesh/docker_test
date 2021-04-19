@@ -27,6 +27,11 @@
 
 ## Current Training and Inference Cycle:
    * 1) Make <docker> file for every git --> docker build docker --> push docker image to docker hub
+<<<<<<< HEAD
+=======
+        https://hub.docker.com/r/thingio/deepstream-l4t (pulled and built successfully)
+        TODO: push to docker hub registry --> pull into paperspace cloud service.
+>>>>>>> 62f0b932c34428ebff7baf450701abf8534a3d07
    * 2) Connect the myhub/container to Gradient on paperspace --> perform testing, NN Training and Inference
 
 
