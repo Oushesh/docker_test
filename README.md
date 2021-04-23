@@ -2,7 +2,7 @@
    * Waiting for this come: Github Codespaces
      * Until Then: Use replit.com to test a github Machine Learning code.
         * If you need more space, buy the hacker membership of 5 bucks/month
-        * TODO: Find a way to fast-inference test pretrained models. (Colab does not work so much)
+        * TODO: Find a way to fast-inference test pretrained models. (Use paperspace cloud to test the repos: Build docker and always for fast testing)
 
 
    * Once the code works and you run without errors, fast-configure Docker-File
