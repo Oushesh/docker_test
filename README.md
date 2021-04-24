@@ -2,8 +2,7 @@
    * Waiting for this come: Github Codespaces
      * Until Then: Use replit.com to test a github Machine Learning code.
         * If you need more space, buy the hacker membership of 5 bucks/month
-        * TODO: Find a way to fast-inference test pretrained models. (Colab does not work so much)
-
+        * TODO: Find a way to fast-inference test pretrained models. (Use paperspace cloud to test the repos: Build docker             and always for fast testing)
 
    * Once the code works and you run without errors, fast-configure Docker-File
      * Write the dockerfile and test the run locally. Pull Docker and test.
@@ -18,6 +17,7 @@
    * https://docs.docker.com/engine/security/rootless/
 
     * Docker run
+<<<<<<< HEAD
       * Typical: sudo docker build <docker.file> without sudo you get docker-daemon error
         * If you are on a local computer: add current user to new user group as follows:
           *  https://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo
@@ -32,8 +32,19 @@
 <<<<<<< HEAD
 =======
         https://hub.docker.com/r/thingio/deepstream-l4t (pulled and built successfully)
+=======
+      * 1) Build docker as mentionned here:
+           * Typical: sudo docker build <docker.file> without sudo you get docker-daemon error
+           * If you are on a local computer: add current user to new user group as follows:
+             *  https://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo
+      * 2) If you are on a virtual machine: I use Paperspace (6h continuous runtime).        
+      * 3) Make <docker> file for every git --> docker build docker --> create a repository on docker --> push docker image              to docker hub 
+           *  
+  
+## How to?:
+   * https://hub.docker.com/r/thingio/deepstream-l4t (pulled and built successfully)
+>>>>>>> d9eebbac34e005678f6bb61b035b47e0f6afecd5
         TODO: push to docker hub registry --> pull into paperspace cloud service.
->>>>>>> 62f0b932c34428ebff7baf450701abf8534a3d07
    * 2) Connect the myhub/container to Gradient on paperspace --> perform testing, NN Training and Inference
 
 
