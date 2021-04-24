@@ -24,6 +24,8 @@
         * If you are on a virtual machine: example the one I use: Paperspace then lets see
           * TO Write the fix here  
 
+    * Docker build
+      * go directory with Docker
 
 ## Current Training and Inference Cycle:
    * 1) Make <docker> file for every git --> docker build docker --> push docker image to docker hub
